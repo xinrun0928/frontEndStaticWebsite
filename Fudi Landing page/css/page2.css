@@ -1,0 +1,67 @@
+.w{
+    width: 640px;
+    height: 1136px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.nav{
+    height: 130px;
+    background-color: #582349;
+}
+.nav img:first-child{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav h1{
+    text-align: center;
+    font: lighter 40px HelveticeNeue;
+    line-height: 1em;
+    color: #fff;
+}
+.nav .ben a{
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.nav .ben a:last-child{
+    float: right;
+    margin-right: 30px;
+}
+
+.content{
+    height: 280px;
+    float: left;
+}
+.content .gi{
+    width: 360px;
+    height: 238px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.content .g1{
+    margin-top: 90px;
+}
+.content .gi div{
+    width: 126px;
+    height: 126px;
+    border: 2px solid #383535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.content .gi h2{
+    background: url(../img/redLine.gif) no-repeat bottom center;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 15px;
+    font: bold 18px Lato;
+}
+.content .gi p{
+    text-align: center;
+    margin-top: 8px;
+    color: #000;
+    font: lighter 16px Lato;
+}

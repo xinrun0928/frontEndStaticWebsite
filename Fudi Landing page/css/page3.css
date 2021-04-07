@@ -1,0 +1,40 @@
+.w{
+    width: 640px;
+    height: 1136px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.nav{
+    height: 130px;
+    background-color: #582349;
+}
+.nav img:first-child{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav h1{
+    text-align: center;
+    font: lighter 40px HelveticeNeue;
+    line-height: 1em;
+    color: #fff;
+}
+.nav .ben a{
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.nav .ben a:last-child{
+    float: right;
+    margin-right: 30px;
+}
+
+.foots img{
+    width: 319px;
+    height: 225px;
+    float: left;
+    margin-top: 2px;
+}
+.foots .img1{
+    margin-left: 2px;
+}

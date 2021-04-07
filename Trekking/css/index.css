@@ -1,0 +1,218 @@
+.w{
+    margin: 0 auto;
+    width: 1280px;
+}
+.clearfix::before,
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+.banner{
+    height: 790px;
+    background: url(../img/banner.gif) no-repeat ;
+    background-size: cover;
+}
+.banner img:first-child{
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+}
+.banner ul{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.banner ul li{
+    float: left;
+    margin-right: 50px;
+    color: white;
+}
+.banner ul li a{
+    color: white;
+    text-decoration: none;
+    font: 18px QuicksandBold;
+}
+.banner h1{
+    color: white;
+    font: bold 60px QuicksandBold;
+    text-align: center;
+    margin-top: 300px;
+}
+.banner .cen{
+    margin-top: 40px;
+}
+.banner .cen p{
+    text-align: center;
+    color: rgb(218, 218, 218);
+    font: 20px QuicksandBold;
+    margin-top: 8px;
+}
+.banner .last{
+    margin-top: 200px;
+    margin-left: 620px;
+}
+
+.section{
+    background-color: #f5f6f7;
+    height: 143px;
+}
+.section .mwc{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.section .bor{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #aa9b77;
+    padding-left: 5px;
+    padding-top: 4px;
+    border-radius: 5px;
+    float: left;
+}
+.section .men div{
+    float: left;
+}
+.section .men p{
+    float: left;
+    margin: 3px 20px 0 15px;
+    color: #333333;
+    font: bold 18px QuicksandBold;
+}
+.section .chi{
+    border: 2px solid #cccccc;
+}
+.section a{
+    display: block;
+    width: 204px;
+    height: 39px;
+    background-color: #aa9b77;
+    float: right;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    font: bold 14px QuicksandBold;
+    margin-right: 50px;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+
+.line{
+    height: 100px;
+    padding-top: 100px;
+}
+.line span{
+    margin-left: 150px;
+    font: bold 20px QuicksandBold;
+    color: #424242;
+}
+.line .img1{
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.shop .ce{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.shop div img{
+    width: 320px;
+    height: 378px;
+}
+.shop .pin{
+    margin: 0 100px;
+}
+
+.line1{
+    height: 100px;
+    padding-top: 100px;
+    background:url(../img/chevron.png) no-repeat 1180px 150px;
+}
+.line1 span{
+    font: bold 20px QuicksandBold;
+    color: #424242;
+}
+.line1 .img2{
+    float: left;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+
+.footer .top{
+    height: 332px;
+    background-color: #aa9b77;
+    margin-top: 100px;
+    padding-top: 70px;
+
+}
+.footer .top .bord{
+    width: 713px;
+    height: 260px;
+    background: url(../img/border.png) no-repeat;
+    padding-top: 70px;
+}
+.footer .top .bord p{
+    text-align: center;
+    margin-top: 10px;
+    color: #424242;    
+    font: 16px QuicksandBold;
+}
+
+.footer .center{
+    background-color: #535253;
+    height: 72px;
+    
+}
+.footer .center p{
+    margin-left: 50px;
+    font: 16px/70px QuicksandBold;
+    color: #ffffff;
+}
+.footer .center p img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer .bottom{
+    height: 352px;
+    background-color: #424242;
+} 
+.footer .bottom .lef{
+    margin-left: 50px;
+}
+.footer .bottom h2{
+    color: white;
+    font: bold 20px QuicksandBold;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.footer .bottom p{
+    color: white;
+    font: 10px QuicksandBold;
+    margin-top: 5px;
+}
+.footer .bottom .rig{
+    margin-right: 50px;
+    float: right;
+    margin-top: 140px;
+}
+.footer .bottom .rig p{
+    text-align: right;
+    margin-top: 15px;
+    color: white;
+    font: bold 18px QuicksandBold;
+}
+.footer .bottom .p1{
+    color: white;
+    font: 14px QuicksandBold;
+}
+.footer span{
+    color: #aa9b77;
+}

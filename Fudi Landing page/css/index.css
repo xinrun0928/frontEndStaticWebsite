@@ -1,0 +1,251 @@
+.w{
+    width: 1600px;
+    margin: 0  auto ;
+}
+.clearfix::after,
+.clearfix::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.banner{
+    height: 880px;
+    background:url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+}
+.banner .w ul{
+    float: right;
+    margin-top: 35px;
+}
+.banner .w ul li{
+    float: left;
+}
+.banner .w ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font: bold 14px lato;
+}
+.banner .w ul li a:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+.banner .w h2{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin-top: 250px;
+    font:bold 36px TimesNewRomanPs-BoldItalicMT;
+}
+.banner .w h1{
+    font: bold 100px Lato;
+    text-align: center;
+    color: white;
+}
+.banner .w .btn{
+    width: 280px;
+    height: 68px;
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    font: bold 18px/68px Lato;
+    margin: 0 auto;
+}
+.banner .w .btn a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.banner .w p{
+    color: white;
+    font: 14px Lato;
+    text-align: center;
+    margin-top: 30px;
+}
+.banner .w p a{
+    color: white;
+    font: bold 14px Lato;
+}
+
+.get{
+    height: 463px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;;
+}
+.get .gi{
+    width: 360px;
+    height: 238px;
+}
+.get .gi div{
+    width: 107px;
+    height: 102px;
+    border: 2px solid #383535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.get .gi h2{
+    background: url(../img/redLine.gif) no-repeat bottom center;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 15px;
+    font: bold 18px Lato;
+}
+.get .gi p{
+    text-align: center;
+    margin-top: 8px;
+    color: #000;
+    font: lighter 16px Lato;
+}
+
+.phone{
+    height: 881px;
+    background: #f7f7f7;
+    position: relative;
+    overflow: hidden;
+}
+.phone .left{
+    width: 550px;
+    height: 779px;
+    background: url(../img/iphone.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    margin-left: 200px;
+}
+.phone .left img{
+    width: 442px;
+    margin-top: 160px;
+    margin-left: 68px;
+}
+.phone .right{
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
+.phone .right h1{
+    display: inline-block;
+    color: #000;
+    font: bold 18px Lato;
+    background: url(../img/redLine.gif) no-repeat bottom left;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.phone .right .mvs{
+    width: 543px;
+    height: 300px;
+    overflow: hidden;
+}
+.phone .right .mvs p{
+    color: #000;
+    font: lighter 16px Lato;
+    word-wrap: break-word;
+    line-height: 1.5em;
+}
+.phone .right .mvs .p1{
+    margin-top: 30px;
+}
+.phone .right img{
+    margin-top: 20px;
+}
+.phone .right .img1{
+    margin-left: 10px;
+}
+
+.thank{
+    height: 462px;
+    background: #4a3949;
+}
+.thank .head{
+    height: 462px;
+    background: url(../img/footerBackground.png) no-repeat center center;
+    position: relative;
+}
+.thank .head img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 80px auto;
+}
+.thank .head p{
+    text-align: center;
+    color: #fff;
+    font: lighter 30px Lato-Hairline;
+    margin-top: 15px;
+    opacity: 0.5;
+}
+.thank .head .p1{
+    margin-top: 230px;
+}
+.thank .head .p2{
+    font: 18px HairlineItalic;
+    margin-bottom: 30px;
+}
+.thank ul{
+    margin-top: 30px; 
+    width: 100px;
+    height: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.thank ul li{
+    float: left;
+}
+.thank ul li a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url(../img/whiteCircle.png) no-repeat;
+}
+.thank ul li .a1{
+    background: url(../img/transparentCircle.png) no-repeat;
+}
+
+.title{
+    height: 164px;
+}
+.title h1{
+    text-align: center;
+    color: #000;
+    font: bold 18px/164px Lato;
+}
+
+.foots{
+    height: 450px;
+    background-color: rgb(241, 241, 241);
+}
+.foots img{
+    width: 320px;
+    display: block;
+    float: left;
+}
+.num{
+    height: 176px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer{
+    height: 93px;
+    background-color: #f7f7f7;
+}
+.footer p{
+    color: rgba(139, 139, 139, 0.5);
+    font: lighter 14px/93px Lato;
+    margin-left: 90px;
+}
+.footer .p1{
+    float: right;
+    margin-right: 90px;
+    color: #8b8b8b;
+}
+.footer .p1 a{
+    color: #000;
+    text-decoration: none;
+}
